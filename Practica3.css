@@ -1,0 +1,122 @@
+
+/* Aspecto general de la página */
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0), rgb(50, 58, 61));
+    background-repeat: no-repeat;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    max-height: 100vh;
+
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 0 0 10px rgb(233, 185, 28);
+
+    margin-bottom: 10cm;
+
+}
+header img
+{
+    max-width: 500vw;
+}
+
+/* Objetos */
+
+.card-group
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5cm;
+    gap: 2cm;
+    align-items: center;
+    
+}
+.card
+{
+    width: 30vw;
+    max-height: 100vh;
+    text-align: center;
+    border: 2px solid rgb(rgb(243, 205, 78));
+}
+.card-title
+{
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 0 0 10px rgb(233, 185, 28);
+}
+.card-text
+{
+    font-family: "Macondo Swash Caps", serif;
+    color: rgba(255, 255, 255, 0.863);
+}
+.text-body-secondary
+{
+    font-family: "Macondo Swash Caps", serif;
+    color: rgba(233, 182, 41, 0.863);
+}
+.card img
+{
+    max-width: 50vw; 
+    max-height: 50vh;
+}
+
+
+/* Barra de navegacion */
+nav 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-arriba
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+ul
+{
+    display: flex;
+    
+    list-style: none;
+    width: 100%;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+}
+li
+{
+    background: linear-gradient(rgba(255, 255, 255, 0.151), rgba(13, 16, 17, 0.158));
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    border-radius: 10%;
+    padding: 10px 20px;
+}
+a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+a:hover
+{
+    color: rgba(173, 235, 176, 0.863);;
+    cursor:help;
+}
